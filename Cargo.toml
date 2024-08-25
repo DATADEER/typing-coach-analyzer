@@ -1,0 +1,9 @@
+[package]
+name = "typing-coach-analyzer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+postgres = { version = "0.19.8", features = ["with-chrono-0_4"] }
+rdev = "0.5.3"
